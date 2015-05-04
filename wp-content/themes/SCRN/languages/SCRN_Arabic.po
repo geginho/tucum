@@ -1,0 +1,229 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: POEditor.com\n"
+"Project-Id-Version: SCRN\n"
+"Language: ar\n"
+
+#: archive.php:32 category.php:32 index.php:120 page-template-blog.php:53
+#: page.php:30 search.php:40 single.php:30 tag.php:40 ../SCRN/archive.php:32
+#: ../SCRN/category.php:32 ../SCRN/index.php:120
+#: ../SCRN/page-template-blog.php:53 ../SCRN/page.php:30 ../SCRN/search.php:40
+#: ../SCRN/single.php:30 ../SCRN/tag.php:40
+msgid "by"
+msgstr "بواسطة"
+
+#: archive.php:33 category.php:33 index.php:121 page-template-blog.php:54
+#: page.php:31 search.php:41 single.php:31 tag.php:41 ../SCRN/archive.php:33
+#: ../SCRN/category.php:33 ../SCRN/index.php:121
+#: ../SCRN/page-template-blog.php:54 ../SCRN/page.php:31 ../SCRN/search.php:41
+#: ../SCRN/single.php:31 ../SCRN/tag.php:41
+msgid "on"
+msgstr "على"
+
+#. @ SCRN
+#: archive.php:34 category.php:34 index.php:122 page-template-blog.php:55
+#: search.php:42 single.php:32 tag.php:42 ../SCRN/archive.php:34
+#: ../SCRN/category.php:34 ../SCRN/index.php:122
+#: ../SCRN/page-template-blog.php:55 ../SCRN/search.php:42
+#: ../SCRN/single.php:32 ../SCRN/tag.php:42
+msgid "0 comments"
+msgstr "٠ تعليق"
+
+#. @ SCRN
+#: archive.php:34 category.php:34 index.php:122 page-template-blog.php:55
+#: search.php:42 single.php:32 tag.php:42 ../SCRN/archive.php:34
+#: ../SCRN/category.php:34 ../SCRN/index.php:122
+#: ../SCRN/page-template-blog.php:55 ../SCRN/search.php:42
+#: ../SCRN/single.php:32 ../SCRN/tag.php:42
+msgid "1 comment"
+msgstr "تعليق ١"
+
+#. @ SCRN
+#: archive.php:34 category.php:34 comments.php:19 index.php:122
+#: page-template-blog.php:55 search.php:42 single.php:32 tag.php:42
+#: ../SCRN/archive.php:34 ../SCRN/category.php:34 ../SCRN/comments.php:19
+#: ../SCRN/index.php:122 ../SCRN/page-template-blog.php:55
+#: ../SCRN/search.php:42 ../SCRN/single.php:32 ../SCRN/tag.php:42
+msgid "comments"
+msgstr "تعليقات"
+
+#: archive.php:40 category.php:40 index.php:128 page-template-blog.php:61
+#: search.php:48 tag.php:48 ../SCRN/archive.php:40 ../SCRN/category.php:40
+#: ../SCRN/index.php:128 ../SCRN/page-template-blog.php:61
+#: ../SCRN/search.php:48 ../SCRN/tag.php:48
+msgid "Read more"
+msgstr "اقرأ المزيد"
+
+#. @ SCRN
+#: comments.php:19 ../SCRN/comments.php:19
+msgid "No comments"
+msgstr "لا يوجد تعليقات"
+
+#. @ SCRN
+#: comments.php:19 ../SCRN/comments.php:19
+msgid "One comment"
+msgstr "تعليق واحد"
+
+#. @ SCRN
+#: comments.php:23 comments.php:35 ../SCRN/comments.php:23
+#: ../SCRN/comments.php:35
+msgid "<span class=\"meta-nav\">&larr;</span> Older Comments"
+msgstr "<span class=\"meta-nav\">&larr;</span> نعليقات أقدم"
+
+#. @ SCRN
+#: comments.php:24 comments.php:36 ../SCRN/comments.php:24
+#: ../SCRN/comments.php:36
+msgid "Newer Comments <span class=\"meta-nav\">&rarr;</span>"
+msgstr "تعليقات أحدث <span class=\"meta-nav\">&rarr;</span>"
+
+#. @ SCRN
+#: comments.php:42 ../SCRN/comments.php:42
+msgid "Trackbacks/Pingbacks"
+msgstr "Trackbacks/Pingbacks"
+
+#: comments.php:79 ../SCRN/comments.php:79
+msgid "Name:"
+msgstr "الاسم:"
+
+#: comments.php:80 ../SCRN/comments.php:80
+msgid "E-mail:"
+msgstr "البريد الالكتروني:"
+
+#: comments.php:81 ../SCRN/comments.php:81
+msgid "Website:"
+msgstr "الموقع:"
+
+#. @ SCRN
+#: comments.php:83 ../SCRN/comments.php:83
+msgid "Message:"
+msgstr "الرسالة:"
+
+#. @ SCRN
+#: comments.php:84 ../SCRN/comments.php:84
+msgid "Submit Comment"
+msgstr "أرسل تعليقا"
+
+#. @ SCRN
+#: comments.php:84 ../SCRN/comments.php:84
+msgid "Leave a Reply"
+msgstr "اضف ردا"
+
+#. @ SCRN
+#: comments.php:84 ../SCRN/comments.php:84
+msgid "Leave a Reply to %s"
+msgstr "أضف ردا لـ %s"
+
+#. @ SCRN
+#: footer.php:5 ../SCRN/footer.php:5
+msgid "All Rights Reserved"
+msgstr "جميع الحقوق محفوظة"
+
+#. @ SCRN
+#: footer.php:5 ../SCRN/footer.php:5
+msgid "designed by "
+msgstr "تصميم "
+
+#. @ SCRN
+#: footer.php:58 ../SCRN/footer.php:58
+msgid "Navigate to..."
+msgstr "انتقل الى"
+
+#: index.php:21 ../SCRN/index.php:21
+msgid "Name: "
+msgstr "الاسم: "
+
+#: index.php:22 ../SCRN/index.php:22
+msgid "E-mail: "
+msgstr "البريد الالكتروني: "
+
+#. @ SCRN
+#: index.php:23 ../SCRN/index.php:23
+msgid "Message: "
+msgstr "الرسالة: "
+
+#: index.php:145 ../SCRN/index.php:145
+msgid "View all blog posts"
+msgstr "اعرض كافة المقالات"
+
+#. @ SCRN
+#: index.php:165 ../SCRN/index.php:165
+msgid "Contact"
+msgstr "اتصل بنا"
+
+#. @ SCRN
+#: index.php:185 ../SCRN/index.php:185
+msgid "<b>Thank you!</b> I have received your message."
+msgstr "<b>شكرا لك</b> تم استلام رسالتك"
+
+#. @ SCRN
+#: index.php:189 ../SCRN/index.php:189
+msgid "name"
+msgstr "الاسم"
+
+#. @ SCRN
+#: index.php:192 ../SCRN/index.php:192
+msgid "email"
+msgstr "البريد الالكتروني"
+
+#. @ SCRN
+#: index.php:195 ../SCRN/index.php:195
+msgid "message"
+msgstr "الرسالة"
+
+#. @ SCRN
+#: index.php:198 ../SCRN/index.php:198
+msgid "send"
+msgstr "أرسل"
+
+#. @ SCRN
+#: index.php:209 ../SCRN/index.php:209
+msgid "Contact Info"
+msgstr "معلومات الاتصال"
+
+#. @ SCRN
+#: search.php:8 ../SCRN/search.php:8
+msgid "Search Results for: %s"
+msgstr "نتائج البحث - %s"
+
+#. @ SCRN
+#: single-portfolio.php:77 ../SCRN/single-portfolio.php:77
+msgid "Close project"
+msgstr "أغلق المشروع"
+
+#. @ SCRN
+#: single.php:38 ../SCRN/single.php:38
+msgid "Pages"
+msgstr "الصفحات"
+
+#: single.php:40 ../SCRN/single.php:40
+msgid "Tags: "
+msgstr "الكلمات الدلالية: "
+
+#. @ SCRN
+#: includes/comments.php:15 ../SCRN/includes/comments.php:15
+msgid "Reply"
+msgstr " د"
+
+#. @ SCRN
+#: includes/comments.php:17 ../SCRN/includes/comments.php:17
+msgid "(Edit)"
+msgstr "(تحرير)"
+
+#. @ SCRN
+#: includes/comments.php:21 ../SCRN/includes/comments.php:21
+msgid "Your comment is awaiting moderation."
+msgstr "تعليقك بانتظار التفعيل"
+
+#. @ SCRN
+#: includes/pagination.php:6 ../SCRN/includes/pagination.php:6
+msgid "&laquo; Older Entries"
+msgstr "&laquo;مقالات أقدم"
+
+#. @ SCRN
+#: includes/pagination.php:7 ../SCRN/includes/pagination.php:7
+msgid "Newer Entries &raquo;"
+msgstr " مقالات أحدث &raquo;"
+

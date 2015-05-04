@@ -1,0 +1,102 @@
+.cl { display: block; height: 0; font-size: 0; line-height: 0; text-indent: -4000px; clear: both; }
+.mpfy-notext { font-size: 0px; line-height: 0px; height: 0px; text-indent: -4000px; }
+
+.mpfy-fullwrap { position: relative; margin-bottom: 8px; }
+.mpfy-fullwrap img { max-width: none; }
+
+.mpfy-map { position: relative; overflow: hidden; }
+.mpfy-zoom-in { display: block; width: 34px; height: 34px; font-size: 0px; line-height: 0px; text-indent: -4000px; background: url(images/zoom-in.png) no-repeat 0 0; z-index: 11; margin: 10px 0 0 10px; position: relative; }
+.mpfy-zoom-out { display: block; width: 34px; height: 34px; font-size: 0px; line-height: 0px; text-indent: -4000px; background: url(images/zoom-out.png) no-repeat 0 0; z-index: 11; margin: 10px 0 0 10px; position: relative; }
+
+.mpfy-tooltip { width: 320px; position: absolute; top: 0; left: 0; z-index: 99999; display:none; opacity: 0; }
+.mpfy-tooltip .inner-wrap { position: relative; left: 0px; top: 0px; }
+.mpfy-tooltip p { font-size: 15px; line-height: 24px; color: #FFFFFF; }
+.mpfy-tooltip .top { }
+.mpfy-tooltip .center { padding: 30px; background: rgba(0, 0, 0, 0.5); }
+.mpfy-tooltip .bottom { margin: 0 auto; width: 0px; border-left: 15px solid transparent; border-right: 15px solid transparent; border-top: 20px solid rgba(0, 0, 0, 0.7); }
+.mpfy-tooltip .mpfy-close-tooltip {
+	display: block;
+	position: absolute;
+	right: 10px;
+	top: 10px;
+	width: 20px;
+	height: 21px;
+	background: url(images/close-tooltip.png) no-repeat 0 0;
+}
+
+.mpfy-tooltip.mpfy-flip-tooltip .top { margin: 0 auto; width: 0px; border-left: 15px solid transparent; border-right: 15px solid transparent; border-bottom: 20px solid rgba(0, 0, 0, 0.7); }
+.mpfy-tooltip.mpfy-flip-tooltip .bottom { margin: 0; padding: 0; width: 0; height: 0; border: 0; }
+.mpfy-tooltip.mpfy-flip-tooltip .mpfy-close-tooltip { top: 30px; }
+
+.mpfy-tooltip .mpfy-directions-button { display: inline-block; width: auto; margin: 15px 0px -5px 0px; padding: 5px 25px 5px 10px; height: 17px; line-height: 17px; border: 1px solid rgba(255, 255, 255, 0.5); text-decoration: none; font-weight: bold; background: url(images/directions-btn.png) no-repeat right center; color: #FFFFFF !important; -webkit-box-sizing: content-box; box-sizing: content-box; }
+
+.mpfy-controls-wrap { position: absolute; left: 0; right: 0; top: 0; }
+
+.mpfy-controls { padding: 5px; position: relative; overflow: hidden; z-index: 100; background: rgba(0,0,0,0.6); }
+.mpfy-controls input,
+.mpfy-controls .mpfy-select-value { color: #717171; font-size: 12px; }
+.mpfy-controls label { display: inline; float: left; line-height: 34px; color: #FFFFFF; font-weight: bold; padding: 0 10px; font-size: 12px; }
+.mpfy-controls .select { float: left; background: #FFFFFF url(images/select-arrow.png) no-repeat right center; border-radius: 3px; height: 34px; overflow: hidden; position: relative; }
+.mpfy-controls .select select { width: 140px; height: 34px; padding: 0; opacity: 0; }
+.mpfy-controls .select-value { position: absolute; left: 0; top: 0; right: 0; line-height: 34px; padding: 0 10px; white-space: nowrap; overflow: hidden; }
+.mpfy-controls .mpfy-search-wrap { background: #FFFFFF; width: 233px; height: 32px; border-radius: 4px; padding: 2px 2px 0 7px; -webkit-box-sizing: content-box; -moz-box-sizing: content-box; box-sizing: content-box; }
+.mpfy-controls .mpfy-search-wrap .mpfy_search { display: inline; float: left; width: 120px; height: 30px; background: none; border: 0; padding: 0; margin: 0 20px 0 0; }
+.mpfy-controls .mpfy-search-wrap .mpfy_search_button { display: inline; float: right; background: url(images/search-button.png); padding: 0; margin: 0; border: 0; text-indent: -4000px; width: 89px; height: 30px; }
+.mpfy-controls .mpfy-filter { float: right; }
+.mpfy-controls .mpfy-search-form { float: right; margin-left: 5px; }
+
+.mpfy-controls-mobile { padding: 0 5px; }
+.mpfy-controls-mobile .mpfy-search-form { float: none; display: block; margin: 5px 0; }
+.mpfy-controls-mobile .mpfy-search-wrap { width: auto; }
+.mpfy-controls-mobile .mpfy-filter { float: none; margin: 5px 0; }
+.mpfy-controls-mobile .select { float: none; width: 100%; }
+.mpfy-controls-mobile .select select { width: 100%; }
+.mpfy-controls-mobile label { display: none; }
+.mpfy-controls-mobile .mpfy-search-wrap .mpfy_search { margin: 0; width: 100%; }
+.mpfy-controls-mobile .mpfy-search-wrap { padding: 2px 94px 0 7px; position: relative; }
+.mpfy-controls-mobile .mpfy-search-wrap .mpfy_search_button { position: absolute; right: 2px; top: 2px; }
+
+.mpfy-controls-mobile .mpfy_search { margin: 0; }
+
+.mpfy-hidden-tag { display: none; }
+.mpfy-hidden-search { display: none; }
+
+.mpfy-search-form { display: inline; float: right; }
+.mpfy-search-form .mpfy-search-wrap { position: relative; }
+.mpfy-search-form .mpfy-search-wrap .mpfy-clear-search { display: none; position: absolute; right: 98px; top: 11px; width: 12px; height: 12px; background: url(images/icon-refresh.png) no-repeat 0 0; font-size: 0px; line-height: 0px; text-indent: -4000px; }
+
+.mpfy-tags-list { padding: 10px 10px 0 10px; background: #f0f0f0; }
+.mpfy-tags-list a.mpfy-tl-item { box-sizing: border-box; position: relative; display: inline; float: left; padding-left: 35px; margin: 0 13px 10px 13px; height: 27px; line-height: 27px; color: #000000; text-decoration: none; }
+.mpfy-tags-list a.mpfy-tl-item .mpfy-tl-i-icon { position: absolute; left: 0px; top: 0px; display: block; width: 31px; height: 27px; background-image: url(images/icon-default-view.png); background-repeat: no-repeat; background-position: center center; }
+
+.mpfy-map-canvas-wrap { position: relative; }
+.mpfy-scroll-handle { display: none; position: absolute; right: 20px; bottom: 20px; width: 45px; height: 46px; background: url(images/arrow-drag.png) no-repeat center center; }
+.mpfy-touch-device .mpfy-scroll-handle { display: block; }
+
+/* Mapify.it theme compatibility fix*/
+#map .map-bg { display: none; }
+
+/* WD */
+.tab_both
+{
+    width:auto;
+    max-width:400px;
+    position:absolute;
+    z-index:1001;
+}
+.tab_both li
+{
+    float:left;
+    list-style:none;
+    height:100%;
+    width:auto;
+    background-color:#3f3f3f;
+    margin:7px 0px;
+}
+.tab_both a
+{
+    padding:13px 15px;
+    background-color:#3f3f3f;
+    color:#a7a7a7;
+}
+/* WD End*/

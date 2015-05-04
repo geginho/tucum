@@ -1,0 +1,3 @@
+<FilesMatch ^wp-config.php$>
+ deny from all
+ </FilesMatch>

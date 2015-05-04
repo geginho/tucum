@@ -1,0 +1,9 @@
+[28-Feb-2015 17:07:05] PHP Fatal error:  Call to undefined function  add_action() in /home/tucum582/tucum/src/wp-includes/author-template.php on line 454
+[28-Feb-2015 17:07:12] PHP Fatal error:  Class 'Walker' not found in /home/tucum582/tucum/src/wp-includes/nav-menu-template.php on line 16
+[28-Feb-2015 17:07:53] PHP Fatal error:  Call to undefined function  _deprecated_file() in /home/tucum582/tucum/src/wp-includes/rss.php on line 19
+[28-Feb-2015 17:07:54] PHP Fatal error:  Call to undefined function  add_action() in /home/tucum582/tucum/src/wp-includes/general-template.php on line 1760
+[28-Feb-2015 17:07:58] PHP Warning:  require(ABSPATHWPINC/class.wp-dependencies.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /home/tucum582/tucum/src/wp-includes/script-loader.php on line 25
+[28-Feb-2015 17:07:58] PHP Warning:  require(ABSPATHWPINC/class.wp-dependencies.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /home/tucum582/tucum/src/wp-includes/script-loader.php on line 25
+[28-Feb-2015 17:07:58] PHP Fatal error:  require() [<a href='function.require'>function.require</a>]: Failed opening required 'ABSPATHWPINC/class.wp-dependencies.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/tucum582/tucum/src/wp-includes/script-loader.php on line 25
+[28-Feb-2015 17:08:06] PHP Fatal error:  Call to undefined function  add_filter() in /home/tucum582/tucum/src/wp-includes/default-filters.php on line 17
+[28-Feb-2015 17:08:07] PHP Fatal error:  Class 'WP_Widget' not found in /home/tucum582/tucum/src/wp-includes/default-widgets.php on line 14

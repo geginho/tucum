@@ -1,0 +1,156 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Tharsis\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-11-23 03:17+0200\n"
+"PO-Revision-Date: 2014-11-23 03:18+0200\n"
+"Last-Translator: Cristi Macovei <cristi@teothemes.com>\n"
+"Language-Team: Cristi Macovei <cristi@teothemes.com>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _e;esc_attr;esc_html__\n"
+"X-Poedit-Basepath: .\n"
+"X-Generator: Poedit 1.6.10\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: ..\n"
+
+#: ../archive.php:32 ../category.php:32 ../index.php:120
+#: ../page-template-blog.php:53 ../page.php:30 ../search.php:40
+#: ../single.php:30 ../tag.php:40
+msgid "by"
+msgstr "de"
+
+#: ../archive.php:33 ../category.php:33 ../index.php:121
+#: ../page-template-blog.php:54 ../page.php:31 ../search.php:41
+#: ../single.php:31 ../tag.php:41
+msgid "on"
+msgstr "pe"
+
+#: ../archive.php:34 ../category.php:34 ../index.php:122
+#: ../page-template-blog.php:55 ../search.php:42 ../single.php:32
+#: ../tag.php:42
+msgid "0 comments"
+msgstr "0 comentarii"
+
+#: ../archive.php:34 ../category.php:34 ../index.php:122
+#: ../page-template-blog.php:55 ../search.php:42 ../single.php:32
+#: ../tag.php:42
+msgid "1 comment"
+msgstr "1 comentariu"
+
+#: ../archive.php:34 ../category.php:34 ../index.php:122
+#: ../page-template-blog.php:55 ../search.php:42 ../single.php:32
+#: ../tag.php:42
+msgid "comments"
+msgstr "comentarii"
+
+#: ../archive.php:40 ../category.php:40 ../index.php:128
+#: ../page-template-blog.php:61 ../search.php:48 ../tag.php:48
+msgid "Read more"
+msgstr "Citeste mai mult"
+
+#: ../footer.php:5
+#, fuzzy
+msgid "All Rights Reserved"
+msgstr "Toate drepturile rezervate"
+
+#: ../footer.php:5
+#, fuzzy
+msgid "designed by "
+msgstr "realizat de "
+
+#: ../footer.php:58
+msgid "Navigate to..."
+msgstr "Navigheaza la..."
+
+#: ../index.php:21
+msgid "Name: "
+msgstr "Nume: "
+
+#: ../index.php:22
+msgid "E-mail: "
+msgstr ""
+
+#: ../index.php:23
+msgid "Message: "
+msgstr "Mesaj: "
+
+#: ../index.php:145
+msgid "View all blog posts"
+msgstr "Vezi toate postural"
+
+#: ../index.php:165
+msgid "Contact"
+msgstr "Contacteaza"
+
+#: ../index.php:185
+#, fuzzy
+msgid "<b>Thank you!</b> I have received your message."
+msgstr "<b>Multumesc!</b> Am primit mesajul!"
+
+#: ../index.php:189
+msgid "name"
+msgstr "nume"
+
+#: ../index.php:192
+msgid "email"
+msgstr ""
+
+#: ../index.php:195
+msgid "message"
+msgstr "mesaj"
+
+#: ../index.php:198
+msgid "send"
+msgstr "trimite"
+
+#: ../index.php:209
+msgid "Contact Info"
+msgstr "Informatii contact"
+
+#: ../single-portfolio.php:77
+msgid "Close project"
+msgstr "Inchide proiect"
+
+#: ../single.php:38
+msgid "Pages"
+msgstr "Pagini"
+
+#: ../single.php:40
+msgid "Tags: "
+msgstr "Tag-uri: "
+
+#: ../teoPanel/Page-Builder/blocks/aq-clear-block.php:43
+msgid ""
+"Use this block to clear the floats between two or more separate blocks "
+"vertically."
+msgstr ""
+
+#: ../teoPanel/Page-Builder/classes/class-aq-page-builder.php:667
+msgid "Choose Your Page Template"
+msgstr ""
+
+#: ../teoPanel/Page-Builder/view/view-builder-page.php:125
+msgid "Available Blocks"
+msgstr ""
+
+#: ../teoPanel/Page-Builder/view/view-builder-page.php:125
+msgid "Deleting"
+msgstr ""
+
+#: ../teoPanel/Page-Builder/view/view-builder-page.php:130
+msgid "Need help? Use the Help tab in the upper right of your screen."
+msgstr ""
+
+#: ../teoPanel/Page-Builder/view/view-builder-page.php:197
+msgid "Template Name"
+msgstr ""
+
+#~ msgid "Posted on"
+#~ msgstr "Postat pe "
+
+#, fuzzy
+#~ msgid "powered by"
+#~ msgstr "Powered by"

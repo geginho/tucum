@@ -1,0 +1,87 @@
+<?php global $teo_data; ?>
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html style="margin-top: 0 !important" class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html style="margin-top: 0 !important" class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html style="margin-top: 0 !important" class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--> <!--<![endif]-->
+<html style="margin-top: 0 !important" <?php language_attributes(); ?>> <!--<![endif]-->
+<head>
+    <meta http-equiv="Content-Type" content="<?php bloginfo('html_type'); ?>; charset=<?php bloginfo('charset'); ?>" />
+    <title><?php wp_title('-');?></title>
+    <!-- Mobile Specific Metas
+      ================================================== -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <!--[if lt IE 9]>
+        <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!--[if IE]>
+        <link href="<?php echo get_template_directory_uri() . '/css/ie.css';?>" rel='stylesheet' type='text/css'>
+    <![endif]-->
+   
+    
+    <script type="text/javascript">
+    var templateDir = "<?php echo get_template_directory_uri(); ?>";
+    </script>
+
+
+    <?php global $teo_data;  
+    if(isset($teo_data['integration_header'])) echo $teo_data['integration_header'] . PHP_EOL;
+    wp_head(); ?>
+</head>
+<body <?php body_class();?>>
+ 
+<!-- Primary Page Layout
+    ================================================== -->
+
+    <div id="intro">
+    
+        <div class="bg1"></div>
+        
+        <div class="title">
+            <?php if(isset($teo_data['logo']['url']) && $teo_data['logo']['url'] != '') { ?>
+                <img src="<?php echo esc_url($teo_data['logo']['url']);?>" alt="<?php bloginfo('name');?>" />
+            <?php } 
+            else { ?>
+                <div class="intro-line"></div>
+                <?php if(isset($teo_data['topheader_text']) && $teo_data['topheader_text']) { ?>
+                    <h1><?php echo $teo_data['topheader_text'];?></h1>
+                <?php } ?>
+                <?php if(isset($teo_data['topheader_smalltext']) && $teo_data['topheader_smalltext']) { ?>
+                    <h1 class="small"><?php echo $teo_data['topheader_smalltext'];?></h1>
+                <?php } ?>
+                <div class="intro-line"></div>
+            <?php } ?>
+            <?php if(isset($teo_data['topheader_smallertext']) && $teo_data['topheader_smallertext']) { ?>
+                <p><?php echo $teo_data['topheader_smallertext'];?></p>
+            <?php } ?>
+            <div class="social-intro">
+                <ul>
+                    <?php if(isset($teo_data['twitter_username']) && $teo_data['twitter_username'] != '') { ?><li><a target="_blank" href="http://twitter.com/<?php echo $teo_data['twitter_username'];?>"><img src="<?php echo get_template_directory_uri();?>/images/icn-twitter-intro.png" alt="Twitter icon" /></a></li><?php } ?>
+                    <?php if(isset($teo_data['facebook_url']) && $teo_data['facebook_url'] != '') { ?><li><a target="_blank" href="<?php echo $teo_data['facebook_url'];?>"><img src="<?php echo get_template_directory_uri();?>/images/icn-facebook-intro.png" alt="Facebook icon" /></a></li><?php } ?>
+                    <?php if(isset($teo_data['gplus_url']) && $teo_data['gplus_url'] != '') { ?><li><a target="_blank" href="<?php echo $teo_data['gplus_url'];?>"><img src="<?php echo get_template_directory_uri();?>/images/icn-gplus-intro.png" alt="Google+ icon" /></a></li><?php } ?>
+                    <?php if(isset($teo_data['linkedin_url']) && $teo_data['linkedin_url'] != '') { ?><li><a target="_blank" href="<?php echo $teo_data['linkedin_url'];?>"><img src="<?php echo get_template_directory_uri();?>/images/icn-linkedin-intro.png" alt="LinkedIn icon" /></a></li><?php } ?>
+                    <?php if(isset($teo_data['feedburner_url']) && $teo_data['feedburner_url'] != '') { ?><li><a target="_blank" href="<?php echo $teo_data['feedburner_url'];?>"><img src="<?php echo get_template_directory_uri();?>/images/icn-feedburner-intro.png" alt="Feedburner icon" /></a></li><?php } ?>
+                    <?php if(isset($teo_data['dribble_url']) && $teo_data['dribble_url'] != '') { ?><li><a target="_blank" href="<?php echo $teo_data['dribble_url'];?>"><img src="<?php echo get_template_directory_uri();?>/images/icn-dribbble-intro.png" alt="Dribbble icon" /></a></li><?php } ?>
+                    <?php if(isset($teo_data['vimeo_url']) && $teo_data['vimeo_url'] != '') { ?><li><a target="_blank" href="<?php echo $teo_data['vimeo_url'];?>"><img src="<?php echo get_template_directory_uri();?>/images/icn-vimeo-intro.png" alt="Vimeo icon" /></a></li><?php } ?>
+                    <?php if(isset($teo_data['pinterest_url']) && $teo_data['pinterest_url'] != '') { ?><li><a target="_blank" href="<?php echo $teo_data['pinterest_url'];?>"><img src="<?php echo get_template_directory_uri();?>/images/icn-pinterest-intro.png" alt="Pinterest icon" /></a></li><?php } ?>
+                    <?php if(isset($teo_data['youtube_url']) && $teo_data['youtube_url'] != '') { ?><li><a target="_blank" href="<?php echo $teo_data['youtube_url'];?>"><img src="<?php echo get_template_directory_uri();?>/images/icn-youtube-intro.png" alt="Youtube icon" /></a></li><?php } ?>
+                    <?php if(isset($teo_data['instagram_url']) && $teo_data['instagram_url'] != '') { ?><li><a target="_blank" href="<?php echo $teo_data['instagram_url'];?>"><img src="<?php echo get_template_directory_uri();?>/images/icn-instagram-intro.png" alt="Instagram icon" /></a></li><?php } ?>
+                    <?php if(isset($teo_data['tumblr_url']) && $teo_data['tumblr_url'] != '') { ?><li><a target="_blank" href="<?php echo $teo_data['tumblr_url'];?>"><img src="<?php echo get_template_directory_uri();?>/images/icn-tumblr-intro.png" alt="Tumblr icon" /></a></li><?php } ?>
+                    <?php if(isset($teo_data['flickr_url']) && $teo_data['flickr_url'] != '') { ?><li><a target="_blank" href="<?php echo $teo_data['flickr_url'];?>"><img src="<?php echo get_template_directory_uri();?>/images/icn-flickr-intro.png" alt="Flickr icon" /></a></li><?php } ?>
+                </ul>
+            </div>
+        </div> <!-- end title -->
+    </div> <!-- end intro -->
+
+    <nav>
+        <?php wp_nav_menu(array(
+                                'theme_location' => 'top-menu',
+                                'container' => '',
+                                'fallback_cb' => 'show_top_menu',
+                                'menu_id' => 'menu-top-menu',
+                                'echo' => true,
+                                'walker' => new description_walker(),
+                                'depth' => 1 ) );
+            ?>
+    </nav>
