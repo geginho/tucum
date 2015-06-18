@@ -625,7 +625,7 @@ function vp_filterable_portfolio($atts, $content=null) {
 		'number' => 21
 	), $atts));
 	$id = rand(1, 50000);
-	$output = '<div class="filterable-' . $id . '">';
+	$output = '<div class="container"><div class="filterable-' . $id . '">';
 	global $post;
 	$categories = esc_attr($categories);
 	$categories = str_replace(' ', '', $categories);
@@ -770,7 +770,7 @@ function vp_filterable_portfolio($atts, $content=null) {
 			});
 		});
 	</script>';
-	$output .= '<div class="clear"></div>';
+	$output .= '</div><div class="clear"></div>';
 	return $output;
 }
 

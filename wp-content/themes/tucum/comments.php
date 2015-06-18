@@ -81,7 +81,7 @@
 	'url'    => '<p>' . __('Website:', 'SCRN') . '</p><input id="url" name="url" type="text" value="' . $url . '" size="30" /> <div class="clear"></div>'
 	); 
 	$comment_textarea = '<p>' . __('Mensagem:', 'SCRN') . '</p><textarea cols="40" rows="3" id="comment" name="comment" aria-required="true"></textarea> <div class="clear"></div>';
-	comment_form( array( 'fields' => $fields, 'comment_field' => $comment_textarea, 'label_submit' => esc_attr__( 'Postar comentário', 'SCRN' ), 'title_reply' => '<span>' . esc_attr__( 'Deixar uma resposta', 'SCRN' ) . '</span>', 'title_reply_to' => esc_attr__( 'Leave a Reply to %s', 'SCRN' )) ); ?>
+	comment_form( array( 'fields' => $fields, 'comment_field' => $comment_textarea, 'label_submit' => esc_attr__( 'Postar comentário', 'SCRN' ), 'title_reply' => '<span>' . esc_attr__( 'Deixar um comentário', 'SCRN' ) . '</span>', 'title_reply_to' => esc_attr__( 'Leave a Reply to %s', 'SCRN' )) ); ?>
 	<div class="clear"></div>
 <?php else: ?>
 

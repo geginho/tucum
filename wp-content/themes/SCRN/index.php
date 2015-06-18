@@ -119,7 +119,7 @@ get_header(); ?>
             <div class="sixteen columns">
                 <div style="text-align: center">
                     <a href="<?php echo $permalink;?>">
-                        <div class="button1"><?php _e('View all blog posts', 'SCRN');?></div>
+                        <div class="button1"><?php _e('Ver todos os posts', 'SCRN');?></div>
                     </a>
                 </div>
             </div>

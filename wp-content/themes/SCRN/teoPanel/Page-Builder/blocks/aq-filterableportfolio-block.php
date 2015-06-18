@@ -49,7 +49,7 @@ if(!class_exists('AQ_FilterablePortfolio_Block')) {
 		extract($instance);
 
 		$id = rand(1, 50000);
-		$output = '<div class="filterable-' . $id . '">';
+		$output = '<div class="container"><div class="filterable-' . $id . '">';
 
 		$output .= '<div class="filter-categories">
 			<div class="filter">
@@ -190,7 +190,7 @@ if(!class_exists('AQ_FilterablePortfolio_Block')) {
 			});
 		});
 	</script>
-	<div class="clear"></div>';
+	</div><div class="clear"></div>';
 	echo $output;
 	}
 	function update($new_instance, $old_instance) {

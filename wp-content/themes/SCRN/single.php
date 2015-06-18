@@ -27,9 +27,14 @@ $fullwidth = get_post_meta($post->ID, '_individual_fullwidth', true);
                     <?php } ?>
                     <a href="<?php the_permalink();?>">
                         <p class="post-title"><?php the_title();?></p>
-
-
-                       <p>autor</p>
+                        <p class="post-info">
+                                <?php
+                                _e('por', 'SCRN'); echo ' '; the_author_posts_link(); echo ' ';
+                                 _e('em', 'SCRN'); echo ' '; the_time("d M, Y"); 
+                                echo ' - '; comments_popup_link(esc_html__('0 commentários','SCRN'), esc_html__('1 comentário','SCRN'), '% '.esc_html__('comentários','SCRN'));
+                                ?>
+                            </p>
+                        
 
                     </a>
                 </div>
@@ -58,4 +63,4 @@ $fullwidth = get_post_meta($post->ID, '_individual_fullwidth', true);
         
     </div>
 </div>
-<?php get_footer();?>
+<?php get_footer('blog');?>

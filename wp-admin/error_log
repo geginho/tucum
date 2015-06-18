@@ -1104,3 +1104,82 @@
 [28-Apr-2015 12:20:35] PHP Fatal error:  Cannot redeclare mpfy_mp_plugin_conflict() (previously declared in /home/tucum582/tucum/src/wp-content/plugins/mapifypro/mapify_pro.php:20) in /home/tucum582/tucum/src/wp-content/plugins/mapifypro2/mapify_pro.php on line 49
 [28-Apr-2015 12:20:36] PHP Fatal error:  Cannot redeclare mpfy_mp_plugin_conflict() (previously declared in /home/tucum582/tucum/src/wp-content/plugins/mapifypro/mapify_pro.php:20) in /home/tucum582/tucum/src/wp-content/plugins/mapifypro2/mapify_pro.php on line 49
 [04-May-2015 14:30:17] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/tucum582/tucum/src/wp-content/plugins/mapifypro2/core.php:2) in /home/tucum582/tucum/src/wp-includes/pluggable.php on line 1178
+[07-May-2015 09:26:39] PHP Warning:  printf() [<a href='function.printf'>function.printf</a>]: Argument number must be greater than zero in /home/tucum582/tucum/src/wp-admin/includes/update.php on line 289
+[07-May-2015 09:26:39] PHP Warning:  printf() [<a href='function.printf'>function.printf</a>]: Argument number must be greater than zero in /home/tucum582/tucum/src/wp-admin/includes/update.php on line 289
+[07-May-2015 11:28:25] PHP Warning:  printf() [<a href='function.printf'>function.printf</a>]: Argument number must be greater than zero in /home/tucum582/tucum/src/wp-admin/includes/update.php on line 289
+[07-May-2015 11:28:25] PHP Warning:  printf() [<a href='function.printf'>function.printf</a>]: Argument number must be greater than zero in /home/tucum582/tucum/src/wp-admin/includes/update.php on line 289
+[07-May-2015 11:30:14] PHP Warning:  printf() [<a href='function.printf'>function.printf</a>]: Argument number must be greater than zero in /home/tucum582/tucum/src/wp-admin/includes/update.php on line 289
+[07-May-2015 11:30:14] PHP Warning:  printf() [<a href='function.printf'>function.printf</a>]: Argument number must be greater than zero in /home/tucum582/tucum/src/wp-admin/includes/update.php on line 289
+[07-May-2015 11:30:28] PHP Warning:  printf() [<a href='function.printf'>function.printf</a>]: Argument number must be greater than zero in /home/tucum582/tucum/src/wp-admin/includes/update.php on line 289
+[07-May-2015 11:30:28] PHP Warning:  printf() [<a href='function.printf'>function.printf</a>]: Argument number must be greater than zero in /home/tucum582/tucum/src/wp-admin/includes/update.php on line 289
+[07-May-2015 11:41:40] PHP Warning:  printf() [<a href='function.printf'>function.printf</a>]: Argument number must be greater than zero in /home/tucum582/tucum/src/wp-admin/includes/update.php on line 289
+[07-May-2015 11:41:40] PHP Warning:  printf() [<a href='function.printf'>function.printf</a>]: Argument number must be greater than zero in /home/tucum582/tucum/src/wp-admin/includes/update.php on line 289
+[07-May-2015 12:02:03] PHP Warning:  printf() [<a href='function.printf'>function.printf</a>]: Argument number must be greater than zero in /home/tucum582/tucum/src/wp-admin/includes/update.php on line 289
+[07-May-2015 12:02:03] PHP Warning:  printf() [<a href='function.printf'>function.printf</a>]: Argument number must be greater than zero in /home/tucum582/tucum/src/wp-admin/includes/update.php on line 289
+[08-May-2015 14:15:25] PHP Warning:  printf() [<a href='function.printf'>function.printf</a>]: Argument number must be greater than zero in /home/tucum582/tucum/src/wp-admin/includes/update.php on line 289
+[08-May-2015 14:15:25] PHP Warning:  printf() [<a href='function.printf'>function.printf</a>]: Argument number must be greater than zero in /home/tucum582/tucum/src/wp-admin/includes/update.php on line 289
+[08-May-2015 15:49:05] PHP Warning:  printf() [<a href='function.printf'>function.printf</a>]: Argument number must be greater than zero in /home/tucum582/tucum/src/wp-admin/includes/update.php on line 289
+[08-May-2015 15:49:05] PHP Warning:  printf() [<a href='function.printf'>function.printf</a>]: Argument number must be greater than zero in /home/tucum582/tucum/src/wp-admin/includes/update.php on line 289
+[26-May-2015 15:20:38] PHP Warning:  printf() [<a href='function.printf'>function.printf</a>]: Argument number must be greater than zero in /home/tucum582/tucum/src/wp-admin/includes/update.php on line 289
+[26-May-2015 15:20:38] PHP Warning:  printf() [<a href='function.printf'>function.printf</a>]: Argument number must be greater than zero in /home/tucum582/tucum/src/wp-admin/includes/update.php on line 289
+[26-May-2015 15:20:38] PHP Warning:  printf() [<a href='function.printf'>function.printf</a>]: Argument number must be greater than zero in /home/tucum582/tucum/src/wp-admin/includes/update.php on line 289
+[26-May-2015 15:20:38] PHP Warning:  printf() [<a href='function.printf'>function.printf</a>]: Argument number must be greater than zero in /home/tucum582/tucum/src/wp-admin/includes/update.php on line 289
+[26-May-2015 15:21:41] PHP Warning:  printf() [<a href='function.printf'>function.printf</a>]: Argument number must be greater than zero in /home/tucum582/tucum/src/wp-admin/includes/update.php on line 289
+[26-May-2015 15:21:41] PHP Warning:  printf() [<a href='function.printf'>function.printf</a>]: Argument number must be greater than zero in /home/tucum582/tucum/src/wp-admin/includes/update.php on line 289
+[26-May-2015 15:21:41] PHP Warning:  printf() [<a href='function.printf'>function.printf</a>]: Argument number must be greater than zero in /home/tucum582/tucum/src/wp-admin/includes/update.php on line 289
+[26-May-2015 15:21:41] PHP Warning:  printf() [<a href='function.printf'>function.printf</a>]: Argument number must be greater than zero in /home/tucum582/tucum/src/wp-admin/includes/update.php on line 289
+[26-May-2015 15:22:05] PHP Warning:  printf() [<a href='function.printf'>function.printf</a>]: Argument number must be greater than zero in /home/tucum582/tucum/src/wp-admin/includes/update.php on line 289
+[26-May-2015 15:22:05] PHP Warning:  printf() [<a href='function.printf'>function.printf</a>]: Argument number must be greater than zero in /home/tucum582/tucum/src/wp-admin/includes/update.php on line 289
+[26-May-2015 15:22:05] PHP Warning:  printf() [<a href='function.printf'>function.printf</a>]: Argument number must be greater than zero in /home/tucum582/tucum/src/wp-admin/includes/update.php on line 289
+[26-May-2015 15:22:05] PHP Warning:  printf() [<a href='function.printf'>function.printf</a>]: Argument number must be greater than zero in /home/tucum582/tucum/src/wp-admin/includes/update.php on line 289
+[26-May-2015 15:34:51] PHP Fatal error:  Uncaught exception 'ImagickException' with message 'Postscript delegate failed `/home/tucum582/tucum/src/wp-content/uploads/2015/05/Catalogo_Tucum_Web.pdf': No such file or directory @ error/pdf.c/ReadPDFImage/669' in /home/tucum582/tucum/src/wp-content/plugins/pdf-light-viewer/controllers/PdfController.php:447
+Stack trace:
+#0 /home/tucum582/tucum/src/wp-content/plugins/pdf-light-viewer/controllers/PdfController.php(447): Imagick->readimage('/home/tucum582/...')
+#1 /home/tucum582/tucum/src/wp-includes/plugin.php(496): PdfLightViewer_PdfController::pdf_partially_import('')
+#2 /home/tucum582/tucum/src/wp-admin/admin-ajax.php(86): do_action(Array, Array)
+#3 {main}
+  thrown in /home/tucum582/tucum/src/wp-content/plugins/pdf-light-viewer/controllers/PdfController.php on line 447
+[26-May-2015 15:52:28] PHP Fatal error:  Uncaught exception 'ImagickException' with message 'Postscript delegate failed `/home/tucum582/tucum/src/wp-content/uploads/2015/05/Catalogo_Tucum_Web.pdf': No such file or directory @ error/pdf.c/ReadPDFImage/669' in /home/tucum582/tucum/src/wp-content/plugins/pdf-light-viewer/controllers/PdfController.php:447
+Stack trace:
+#0 /home/tucum582/tucum/src/wp-content/plugins/pdf-light-viewer/controllers/PdfController.php(447): Imagick->readimage('/home/tucum582/...')
+#1 /home/tucum582/tucum/src/wp-includes/plugin.php(496): PdfLightViewer_PdfController::pdf_partially_import('')
+#2 /home/tucum582/tucum/src/wp-admin/admin-ajax.php(86): do_action(Array, Array)
+#3 {main}
+  thrown in /home/tucum582/tucum/src/wp-content/plugins/pdf-light-viewer/controllers/PdfController.php on line 447
+[26-May-2015 16:04:45] PHP Fatal error:  Uncaught exception 'ImagickException' with message 'Postscript delegate failed `/home/tucum582/tucum/src/wp-content/uploads/2015/05/Catalogo_Tucum_Web.pdf': No such file or directory @ error/pdf.c/ReadPDFImage/669' in /home/tucum582/tucum/src/wp-content/plugins/pdf-light-viewer/controllers/PdfController.php:447
+Stack trace:
+#0 /home/tucum582/tucum/src/wp-content/plugins/pdf-light-viewer/controllers/PdfController.php(447): Imagick->readimage('/home/tucum582/...')
+#1 /home/tucum582/tucum/src/wp-includes/plugin.php(496): PdfLightViewer_PdfController::pdf_partially_import('')
+#2 /home/tucum582/tucum/src/wp-admin/admin-ajax.php(86): do_action(Array, Array)
+#3 {main}
+  thrown in /home/tucum582/tucum/src/wp-content/plugins/pdf-light-viewer/controllers/PdfController.php on line 447
+[26-May-2015 16:25:14] PHP Fatal error:  Uncaught exception 'ImagickException' with message 'Postscript delegate failed `/home/tucum582/tucum/src/wp-content/uploads/2015/05/Catalogo_Tucum_Web.pdf': No such file or directory @ error/pdf.c/ReadPDFImage/669' in /home/tucum582/tucum/src/wp-content/plugins/pdf-light-viewer/controllers/PdfController.php:447
+Stack trace:
+#0 /home/tucum582/tucum/src/wp-content/plugins/pdf-light-viewer/controllers/PdfController.php(447): Imagick->readimage('/home/tucum582/...')
+#1 /home/tucum582/tucum/src/wp-includes/plugin.php(496): PdfLightViewer_PdfController::pdf_partially_import('')
+#2 /home/tucum582/tucum/src/wp-admin/admin-ajax.php(86): do_action(Array, Array)
+#3 {main}
+  thrown in /home/tucum582/tucum/src/wp-content/plugins/pdf-light-viewer/controllers/PdfController.php on line 447
+[26-May-2015 16:26:09] PHP Warning:  printf() [<a href='function.printf'>function.printf</a>]: Argument number must be greater than zero in /home/tucum582/tucum/src/wp-admin/includes/update.php on line 289
+[26-May-2015 16:26:09] PHP Warning:  printf() [<a href='function.printf'>function.printf</a>]: Argument number must be greater than zero in /home/tucum582/tucum/src/wp-admin/includes/update.php on line 289
+[26-May-2015 16:26:09] PHP Warning:  printf() [<a href='function.printf'>function.printf</a>]: Argument number must be greater than zero in /home/tucum582/tucum/src/wp-admin/includes/update.php on line 289
+[26-May-2015 16:26:09] PHP Warning:  printf() [<a href='function.printf'>function.printf</a>]: Argument number must be greater than zero in /home/tucum582/tucum/src/wp-admin/includes/update.php on line 289
+[26-May-2015 16:26:15] PHP Fatal error:  Uncaught exception 'ImagickException' with message 'Postscript delegate failed `/home/tucum582/tucum/src/wp-content/uploads/2015/05/Catalogo_Tucum_Web.pdf': No such file or directory @ error/pdf.c/ReadPDFImage/669' in /home/tucum582/tucum/src/wp-content/plugins/pdf-light-viewer/controllers/PdfController.php:447
+Stack trace:
+#0 /home/tucum582/tucum/src/wp-content/plugins/pdf-light-viewer/controllers/PdfController.php(447): Imagick->readimage('/home/tucum582/...')
+#1 /home/tucum582/tucum/src/wp-includes/plugin.php(496): PdfLightViewer_PdfController::pdf_partially_import('')
+#2 /home/tucum582/tucum/src/wp-admin/admin-ajax.php(86): do_action(Array, Array)
+#3 {main}
+  thrown in /home/tucum582/tucum/src/wp-content/plugins/pdf-light-viewer/controllers/PdfController.php on line 447
+[26-May-2015 16:26:32] PHP Warning:  printf() [<a href='function.printf'>function.printf</a>]: Argument number must be greater than zero in /home/tucum582/tucum/src/wp-admin/includes/update.php on line 289
+[26-May-2015 16:26:32] PHP Warning:  printf() [<a href='function.printf'>function.printf</a>]: Argument number must be greater than zero in /home/tucum582/tucum/src/wp-admin/includes/update.php on line 289
+[26-May-2015 16:26:32] PHP Warning:  printf() [<a href='function.printf'>function.printf</a>]: Argument number must be greater than zero in /home/tucum582/tucum/src/wp-admin/includes/update.php on line 289
+[26-May-2015 16:26:32] PHP Warning:  printf() [<a href='function.printf'>function.printf</a>]: Argument number must be greater than zero in /home/tucum582/tucum/src/wp-admin/includes/update.php on line 289
+[26-May-2015 16:26:46] PHP Warning:  printf() [<a href='function.printf'>function.printf</a>]: Argument number must be greater than zero in /home/tucum582/tucum/src/wp-admin/includes/update.php on line 289
+[26-May-2015 16:26:46] PHP Warning:  printf() [<a href='function.printf'>function.printf</a>]: Argument number must be greater than zero in /home/tucum582/tucum/src/wp-admin/includes/update.php on line 289
+[26-May-2015 16:26:46] PHP Warning:  printf() [<a href='function.printf'>function.printf</a>]: Argument number must be greater than zero in /home/tucum582/tucum/src/wp-admin/includes/update.php on line 289
+[26-May-2015 16:26:46] PHP Warning:  printf() [<a href='function.printf'>function.printf</a>]: Argument number must be greater than zero in /home/tucum582/tucum/src/wp-admin/includes/update.php on line 289
+[03-Jun-2015 15:56:52] PHP Warning:  printf() [<a href='function.printf'>function.printf</a>]: Argument number must be greater than zero in /home/tucum582/tucum/src/wp-admin/includes/update.php on line 289
+[03-Jun-2015 15:56:52] PHP Warning:  printf() [<a href='function.printf'>function.printf</a>]: Argument number must be greater than zero in /home/tucum582/tucum/src/wp-admin/includes/update.php on line 289
+[03-Jun-2015 15:56:52] PHP Warning:  printf() [<a href='function.printf'>function.printf</a>]: Argument number must be greater than zero in /home/tucum582/tucum/src/wp-admin/includes/update.php on line 289
+[03-Jun-2015 15:56:52] PHP Warning:  printf() [<a href='function.printf'>function.printf</a>]: Argument number must be greater than zero in /home/tucum582/tucum/src/wp-admin/includes/update.php on line 289

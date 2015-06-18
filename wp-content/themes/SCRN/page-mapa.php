@@ -8,4 +8,4 @@ the_post();
  <div class="bg-mapa">
           <?php the_content();?>
 </div>
-<?php get_footer();?>
+<?php get_footer('blog');?>

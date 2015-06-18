@@ -82,6 +82,6 @@
                                 'menu_id' => 'menu-top-menu',
                                 'echo' => true,
                                 'walker' => new description_walker(),
-                                'depth' => 1 ) );
+                                'depth' => 0 ) );
             ?>
     </nav>

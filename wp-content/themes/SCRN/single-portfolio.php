@@ -22,7 +22,7 @@ $buttonurl = get_post_meta($post->ID, '_portfolio_buttonurl', true);
 global $wp_embed;
 if($image1 != '' || $video1 != '') {
 ?>
-	<div class="two-thirds column">
+	<div class="three-thirds column">
 		<div class="portfolio-item">
 			<div class="flexslider flex-viewport flexslider2 flex-<?php echo $post->ID;?>">
 				<ul class="slides">
@@ -74,7 +74,7 @@ if($image1 != '' || $video1 != '') {
 				<div class="button1"><?php echo $buttontext;?></div>
 			</a>
 		<?php } ?>
-		<div class="button1 close"><?php _e('Close project', 'SCRN');?></div>
+		<div class="button1 close"><?php _e('Fechar', 'SCRN');?></div>
 	</div> <!-- end one-third column -->
 	<div class="clear"></div>
 	<script type="text/javascript">

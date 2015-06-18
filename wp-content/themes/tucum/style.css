@@ -15,6 +15,7 @@
 
 nav ul li{
   height:32px;
+  padding:0 4px 8px;
 }
 
 nav ul li a {
@@ -87,11 +88,11 @@ p.proj-desc {
 }
 
 .bg {
-	background-color: #121807;
+	background-color: #2382A6;
 }
 
 .button1, input[type="submit"], input[type="reset"], input[type="button"] {
-  background:#263410;
+  background:#16546B;
 }
 
 p.post-title {
@@ -117,7 +118,78 @@ p.sidebar-title {
 }
 
 #footerblog {
-  background: #121807;
+  background: #2382A6;
   position: relative;
   z-index: 300;
+}
+h3 {
+  font-family:'Open sans';
+  font-weight:600;
+}
+p strong{
+  color: #fff;
+  font-weight:400;
+  text-transform: uppercase;
+}
+.post {
+  margin-bottom:50px;
+}
+p.post-title {
+  line-height:34px;
+}
+
+.bg{
+  padding-bottom:100px;
+}
+nav ul li a {
+  color:#AA4E3D;
+  font-family:'Open Sans', Arial, Helvetica, sans-serif;
+  font-size:14px;
+  font-weight:400;
+}
+a.autor{
+  text-transform: uppercase;
+}
+
+
+p, body{
+  font-weight:400;
+}
+.copyright {
+  border-top-color:#FFFFFF;
+  }
+
+  .flexslider {
+    border: 0px solid #fff;
+  }
+
+.mpfy-p-popup-style-two .mpfy-p-top h1{
+text-align:right;
+}
+
+.mpfy-p-widget-direction a{
+background:none;
+border: 1px solid;
+}
+
+.mpfy-p-popup-style-two .mpfy-p-top{
+padding:0px 80px 0px 17px !important;
+}
+.mpfy-p-popup-style-two .mpfy-p-top h1{
+display:none;
+}
+
+element.style {
+  width:970px;
+}
+.wp-caption {
+  text-align:center !important;
+}
+
+.wp-caption {
+  border:0 solid #DDDDDD;
+}
+
+nav ul ul li {
+  display:none;
 }

@@ -3,7 +3,7 @@
         <div class="container">
             <div class="sixteen columns">
                 <div class="copyright">
-                    <p>&copy; <?php echo date("Y");?> <?php _e('All Rights Reserved', 'SCRN');?>, <?php _e('designed by ', 'SCRN');?> <a title="WordPress Themes" href="http://teothemes.com">TeoThemes</a></p>
+                    <p>&copy; <?php echo date("Y");?> <?php _e('Tucum Brasil', 'SCRN');?></p>
                 </div>
             </div>  
         </div>

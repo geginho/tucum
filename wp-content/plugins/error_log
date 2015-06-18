@@ -1,0 +1,2 @@
+[06-May-2015 00:52:11] PHP Fatal error:  Call to undefined function  add_action() in /home/tucum582/tucum/src/wp-content/plugins/hello.php on line 60
+[31-May-2015 07:52:33] PHP Fatal error:  Call to undefined function  add_action() in /home/tucum582/tucum/src/wp-content/plugins/hello.php on line 60

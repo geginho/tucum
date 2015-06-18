@@ -2,7 +2,7 @@
 /* 
 Template name: Page Rede
 */
-get_header(mapa);
+get_header('mapa');
 the_post(); 
 $thumbnail = wp_get_attachment_url( get_post_thumbnail_id($post->ID) );
 $fullwidth = get_post_meta($post->ID, '_individual_fullwidth', true);
@@ -58,4 +58,4 @@ $fullwidth = get_post_meta($post->ID, '_individual_fullwidth', true);
         <?php } ?>
     </div>
 </div>
-<?php get_footer();?>
+<?php get_footer('blog');?>
